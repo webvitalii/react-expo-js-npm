@@ -1,0 +1,7 @@
+.user-card {
+    background-color: lightblue;
+}
+
+.user-card__img {
+    max-width: 100%;
+}
