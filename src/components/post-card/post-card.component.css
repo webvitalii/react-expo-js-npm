@@ -1,0 +1,7 @@
+.post-card {
+    background-color: lightblue;
+}
+
+.post-card__img {
+    max-width: 100%;
+}

@@ -1,53 +1,30 @@
 import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import UserList from './components/user-list/user-list.component';
-
-import SearchBox from './components/search-box/search-box.component';
+import LayoutPage from './pages/layout/layout.page';
+import HomePage from './pages/home/home.page';
+import AboutPage from './pages/about/about.page';
+import UserListPage from './pages/user-list/user-list.page';
+import GeolocationPage from './pages/geolocation/geolocation.page';
+import NotFoundPage from './pages/not-found/not-found.page';
 
 import './App.css';
 
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      userList: [],
-      searchString: ''
-    };
-
-    // This binding is necessary to make `this` work in the callback
-    this.onChangeSearch = this.onChangeSearch.bind(this);
-  }
-
-  componentDidMount() {
-    fetch('https://jsonplaceholder.typicode.com/users')
-    .then(response => response.json())
-    .then(users => this.setState((prevState, prevProps) => { 
-      return { userList: users }; 
-    }));
-  }
-
   render() {
-    const userListCopy = this.state.userList;
-    const searchStringCopy = this.state.searchString;
-    const userListFiltered = userListCopy.filter(user => {
-      return user.name.toLowerCase().includes(searchStringCopy.toLocaleLowerCase());
-    });
     return (
-      <section className="App">
-        <SearchBox handleChange={this.onChangeSearch} />
-        <UserList users={userListFiltered} />
-      </section>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<LayoutPage />}>
+            <Route index element={<HomePage />} />
+            <Route path="about" element={<AboutPage />} />
+            <Route path="user-list" element={<UserListPage />} />
+            <Route path="geolocation" element={<GeolocationPage />} />
+            <Route path="*" element={<NotFoundPage />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
     );
-  }
-
-  onChangeSearch(evt) {
-    this.setState((prevState, prevProps) => {
-      console.log('onChangeSearch this.state=', this.state);
-      console.log('onChangeSearch prevState=', prevState);
-      // use prevState instead of this.state to be safe
-      return {searchString: evt.target.value};
-    }, () => console.log('onChangeSearch callback this.state=', this.state)); 
   }
 }
 
