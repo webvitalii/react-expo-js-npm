@@ -2,10 +2,6 @@ import React from 'react';
 import './loader.component.css';
 
 export default class Loader extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         return (
             <section className='loading'>

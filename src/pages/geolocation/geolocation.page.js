@@ -29,7 +29,7 @@ export default class GeolocationPage extends React.Component {
         );
     }
 
-    render() {
+    renderContent() {
         if (!this.state.errorMessage && !this.state.latitude) {
             return <Loader text='Please accept Geolocation.' />
         }
@@ -49,5 +49,14 @@ export default class GeolocationPage extends React.Component {
                 </ul>
             );
         }
+    }
+
+    render() {
+        return (
+            <div className='geolocation-page'>
+                <h1>Geolocation</h1>
+                { this.renderContent() }
+            </div>
+        )
     }
   }
