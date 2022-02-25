@@ -57,6 +57,6 @@ export default class GeolocationPage extends React.Component {
                 <h1>Geolocation</h1>
                 { this.renderContent() }
             </div>
-        )
+        );
     }
-  }
+}
