@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Loading from '../../components/loading/loading.component';
+import Loader from '../../components/loader/loader.component';
 
 export default class GeolocationPage extends React.Component {
     constructor(props) {
@@ -31,7 +31,7 @@ export default class GeolocationPage extends React.Component {
 
     render() {
         if (!this.state.errorMessage && !this.state.latitude) {
-            return <Loading />
+            return <Loader text='Please accept Geolocation.' />
         }
 
         if (this.state.errorMessage) {
