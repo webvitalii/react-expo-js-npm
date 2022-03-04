@@ -1,5 +1,10 @@
 .user-card {
-    background-color: lightblue;
+    background-color: #ddd;
+}
+
+.user-card__body {
+    text-align: center;
+    padding: 16px;
 }
 
 .user-card__img {

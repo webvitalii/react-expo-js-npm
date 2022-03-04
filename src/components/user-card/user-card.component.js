@@ -6,10 +6,15 @@ export default class UserCard extends React.Component {
         return (
             <section className='user-card' key={this.props.user.id}>
                 <img className='user-card__img'
-                    src={`https://robohash.org/${this.props.user.id}?set=set5&size=150x150`}
+                     // https://source.unsplash.com/600x400/?computer
+                    // src={`https://robohash.org/${this.props.user.id}?set=set5&size=150x150`}
+                    src={`https://source.unsplash.com/300x300/?person,man,woman`}
                     alt='User avatar' />
-                <h3>{ this.props.user.name }</h3>
-                <h5>{ this.props.user.email }</h5>
+                <div className='user-card__body'>
+                    <h3>{ this.props.user.name }</h3>
+                    <p>{ this.props.user.phone }</p>
+                    <p>{ this.props.user.email }</p>
+                </div>
             </section>
         );
     }

@@ -1,6 +1,8 @@
 import React from 'react';
 import { Outlet, Link } from 'react-router-dom';
 
+import './layout.page.css';
+
 export default class LayoutPage extends React.Component {
     render() {
         return (
