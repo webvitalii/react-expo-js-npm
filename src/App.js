@@ -6,6 +6,7 @@ import HomePage from './pages/home/home.page';
 import AboutPage from './pages/about/about.page';
 import UserListPage from './pages/user-list/user-list.page';
 import GeolocationPage from './pages/geolocation/geolocation.page';
+import FormPage from './pages/form/form.page';
 import NotFoundPage from './pages/not-found/not-found.page';
 
 import './App.css';
@@ -20,6 +21,7 @@ class App extends React.Component {
             <Route path="about" element={<AboutPage />} />
             <Route path="user-list" element={<UserListPage />} />
             <Route path="geolocation" element={<GeolocationPage />} />
+            <Route path="form" element={<FormPage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Route>
         </Routes>

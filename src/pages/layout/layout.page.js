@@ -21,6 +21,9 @@ export default class LayoutPage extends React.Component {
                         <li>
                             <Link to="/geolocation">Geolocation</Link>
                         </li>
+                        <li>
+                            <Link to="/form">Form</Link>
+                        </li>
                     </ul>
                 </nav>
 
