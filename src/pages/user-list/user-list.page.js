@@ -46,7 +46,7 @@ export default class UserListPage extends React.Component {
         this.setState((prevState, prevProps) => {
             console.log('onChangeSearch this.state=', this.state);
             console.log('onChangeSearch prevState=', prevState);
-            // use prevState instead of this.state to be safe
+            // use prevState instead of this.state to be safe with up-to-date
             return {searchString: evt.target.value};
         }, () => console.log('onChangeSearch callback this.state=', this.state)); 
     }
