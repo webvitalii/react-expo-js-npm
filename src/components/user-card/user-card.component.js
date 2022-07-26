@@ -8,7 +8,7 @@ export default class UserCard extends React.Component {
                 <img className='user-card__img'
                      // https://source.unsplash.com/600x400/?computer
                     // src={`https://robohash.org/${this.props.user.id}?set=set5&size=150x150`}
-                    src={`https://source.unsplash.com/300x300/?person,man,woman`}
+                    src={`https://source.unsplash.com/random/300x300/?person,man,woman`}
                     alt='User avatar' />
                 <div className='user-card__body'>
                     <h3>{ this.props.user.name }</h3>

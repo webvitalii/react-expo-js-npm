@@ -24,6 +24,9 @@ export default class LayoutPage extends React.Component {
                         <li>
                             <Link to="/form">Form</Link>
                         </li>
+                        <li>
+                            <Link to="/ajax">Ajax</Link>
+                        </li>
                     </ul>
                 </nav>
 
