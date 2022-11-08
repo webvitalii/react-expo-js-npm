@@ -12,7 +12,7 @@ export default class SearchBoxBtn extends React.Component {
     }
 
     onSearchTermChange(event) {
-        this.setState({ searchTerm: event.target.value.trim() });
+        this.setState({ searchTerm: event.target.value });
     }
 
     onBtnClick() {
