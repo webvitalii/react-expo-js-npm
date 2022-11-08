@@ -1,0 +1,7 @@
+.card-item {
+    background-color: lightblue;
+}
+
+.card-item__img {
+    max-width: 100%;
+}

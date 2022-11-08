@@ -27,6 +27,9 @@ export default class LayoutPage extends React.Component {
                         <li>
                             <Link to="/ajax">Ajax</Link>
                         </li>
+                        <li>
+                            <Link to="/youtube">Youtube</Link>
+                        </li>
                     </ul>
                 </nav>
 

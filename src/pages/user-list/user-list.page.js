@@ -13,7 +13,7 @@ export default class UserListPage extends React.Component {
         };
 
         // This binding is necessary to make `this` work in the callback
-        this.onChangeSearch = this.onChangeSearch.bind(this);
+        this.onSearchChange = this.onSearchChange.bind(this);
     }
 
     componentDidMount() {
@@ -36,19 +36,19 @@ export default class UserListPage extends React.Component {
             <section className='user-list-page'>
                 <h3>User list page</h3>
 
-                <SearchBox handleChange={this.onChangeSearch} />
+                <SearchBox handleChange={this.onSearchChange} />
                 <UserList users={userListFiltered} />
             </section>
         );
     }
 
-    onChangeSearch(evt) {
+    onSearchChange(event) {
         this.setState((prevState, prevProps) => {
-            console.log('onChangeSearch this.state=', this.state);
-            console.log('onChangeSearch prevState=', prevState);
+            console.log('this.state=', this.state);
+            console.log('prevState=', prevState);
             // use prevState instead of this.state to be safe with up-to-date
-            return {searchString: evt.target.value};
-        }, () => console.log('onChangeSearch callback this.state=', this.state)); 
+            return {searchString: event.target.value};
+        }, () => console.log('callback after state update: this.state=', this.state));
     }
 
   }
