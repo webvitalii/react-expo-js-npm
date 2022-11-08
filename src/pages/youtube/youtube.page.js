@@ -1,6 +1,6 @@
 import React from 'react';
 import CardList from '../../components/card-list/card-list.component';
-import SearchBox from '../../components/search-box/search-box.component';
+import SearchBoxBtn from '../../components/search-box-btn/search-box-btn.component';
 import youtube from '../../apis/youtube';
 
 export default class YoutubePage extends React.Component {
@@ -18,17 +18,17 @@ export default class YoutubePage extends React.Component {
     render() {
         return (
             <section className='youtube-page'>
-                <h3>Youtube video search:</h3>
+                <h3>Youtube video search: {this.state.videoList.length} results</h3>
 
-                <SearchBox handleChange={this.onSearchChange} />
+                <SearchBoxBtn handleClick={this.onSearchChange} />
                 <CardList list={this.state.videoList} />
             </section>
         );
     }
 
-    async onSearchChange(event) {
+    async onSearchChange(searchTerm) {
         const response = await youtube.get('/search', {
-            params: { q: event.target.value }
+            params: { q: searchTerm }
         });
 
         const itemsPrepared = response.data.items.map((item) => {
