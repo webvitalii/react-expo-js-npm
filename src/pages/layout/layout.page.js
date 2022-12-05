@@ -30,6 +30,9 @@ export default class LayoutPage extends React.Component {
                         <li>
                             <Link to="/youtube">Youtube</Link>
                         </li>
+                        <li>
+                            <Link to="/wikipedia">Wikipedia</Link>
+                        </li>
                     </ul>
                 </nav>
 

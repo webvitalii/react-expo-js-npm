@@ -1,7 +1,7 @@
 import React from 'react';
 import CardList from '../../components/card-list/card-list.component';
 import SearchBoxBtn from '../../components/search-box-btn/search-box-btn.component';
-import youtube from '../../apis/youtube';
+import youtubeApi from '../../apis/youtube.api';
 
 export default class YoutubePage extends React.Component {
     constructor(props) {
@@ -27,16 +27,16 @@ export default class YoutubePage extends React.Component {
     }
 
     async onSearchChange(searchTerm) {
-        const response = await youtube.get('/search', {
+        const response = await youtubeApi.get('/search', {
             params: { q: searchTerm }
         });
 
-        const itemsPrepared = response.data.items.map((item) => {
+        const itemsPrepared = response.data?.items?.map((item) => {
             return {
-                id: item.id.videoId,
-                title: item.snippet.title,
-                description: item.snippet.description,
-                imgUrl: item.snippet.thumbnails.medium.url
+                id: item?.id?.videoId,
+                title: item?.snippet?.title,
+                description: item?.snippet?.description,
+                imgUrl: item?.snippet?.thumbnails?.medium?.url
             };
         });
 

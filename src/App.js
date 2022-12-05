@@ -9,6 +9,7 @@ import GeolocationPage from './pages/geolocation/geolocation.page';
 import FormPage from './pages/form/form.page';
 import AjaxPage from './pages/ajax/ajax.page';
 import YoutubePage from './pages/youtube/youtube.page';
+import WikipediaPage from './pages/wikipedia/wikipedia.page';
 import NotFoundPage from './pages/not-found/not-found.page';
 
 import './App.css';
@@ -26,6 +27,7 @@ class App extends React.Component {
             <Route path="form" element={<FormPage />} />
             <Route path="ajax" element={<AjaxPage />} />
             <Route path="youtube" element={<YoutubePage />} />
+            <Route path="wikipedia" element={<WikipediaPage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Route>
         </Routes>
