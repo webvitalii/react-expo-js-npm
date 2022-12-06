@@ -35,7 +35,8 @@ export default class WikipediaPage extends React.Component {
             return {
                 id: item?.pageid,
                 title: item?.title,
-                description: item?.description
+                // strip HTML tags; Alt version: replace(/(<([^>]+)>)/gi, '')
+                description: item?.snippet.replace(/<\/?[^>]+(>|$)/g, '')
             };
         });
 
