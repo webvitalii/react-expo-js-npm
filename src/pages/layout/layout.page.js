@@ -33,6 +33,9 @@ export default class LayoutPage extends React.Component {
                         <li>
                             <Link to="/wikipedia">Wikipedia</Link>
                         </li>
+                        <li>
+                            <Link to="/superheroes">Superheroes</Link>
+                        </li>
                     </ul>
                 </nav>
 
