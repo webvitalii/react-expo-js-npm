@@ -19,7 +19,7 @@ export default class UserListPage extends React.Component {
     componentDidMount() {
         fetch('https://jsonplaceholder.typicode.com/users')
         .then((response) => response.json())
-        .then((data) => this.setState((prevState, prevProps) => { 
+        .then((data) => this.setState((prevState, prevProps) => {
           return { userList: data }; 
         }));
     }
