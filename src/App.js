@@ -1,19 +1,21 @@
-import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import LayoutPage from './pages/layout/layout.page';
-import HomePage from './pages/home/home.page';
-import CounterPage from './pages/counter/counter.page';
-import UserListPage from './pages/user-list/user-list.page';
-import GeolocationPage from './pages/geolocation/geolocation.page';
-import FormPage from './pages/form/form.page';
-import AjaxPage from './pages/ajax/ajax.page';
-import YoutubePage from './pages/youtube/youtube.page';
-import WikipediaPage from './pages/wikipedia/wikipedia.page';
-import SuperheroesPage from './pages/superheroes/superheroes.page';
-import NotFoundPage from './pages/not-found/not-found.page';
+import LayoutPage from "./pages/layout/layout.page";
+import HomePage from "./pages/home/home.page";
+import CounterPage from "./pages/counter/counter.page";
+import UserListPage from "./pages/user-list/user-list.page";
+import PostListPage from "./pages/PostListPage";
+import PostDetailPage from "./pages/PostDetailPage";
+import GeolocationPage from "./pages/geolocation/geolocation.page";
+import FormPage from "./pages/form/form.page";
+import AjaxPage from "./pages/ajax/ajax.page";
+import YoutubePage from "./pages/youtube/youtube.page";
+import WikipediaPage from "./pages/wikipedia/wikipedia.page";
+import SuperheroesPage from "./pages/superheroes/superheroes.page";
+import NotFoundPage from "./pages/not-found/not-found.page";
 
-import './App.css';
+import "./App.css";
 
 class App extends React.Component {
   render() {
@@ -24,6 +26,8 @@ class App extends React.Component {
             <Route index element={<HomePage />} />
             <Route path="counter" element={<CounterPage />} />
             <Route path="user-list" element={<UserListPage />} />
+            <Route path="posts" element={<PostListPage />} />
+            <Route path="posts/:postId" element={<PostDetailPage />} />
             <Route path="geolocation" element={<GeolocationPage />} />
             <Route path="form" element={<FormPage />} />
             <Route path="ajax" element={<AjaxPage />} />

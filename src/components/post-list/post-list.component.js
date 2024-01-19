@@ -1,17 +1,30 @@
-import React from 'react';
-import './post-list.component.css';
-import PostCard from '../post-card/post-card.component';
+import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+import axios from "axios";
+import "./post-list.component.css";
 
-export default class PostList extends React.Component {
-    render() {
-        // console.log(this.props);
-        // console.log(this.props.children);
-        return (
-            <section className='post-list'>
-                {this.props.posts.map(post => (
-                    <PostCard key={post.id} post={post}></PostCard>
-                ))}
-            </section>
-        );
-    }
-  }
+const PostList = () => {
+  const [posts, setPosts] = useState([]);
+
+  useEffect(() => {
+    axios
+      .get("https://jsonplaceholder.typicode.com/posts")
+      .then((response) => setPosts(response.data))
+      .catch((error) => console.error("Error fetching posts:", error));
+  }, []);
+
+  return (
+    <div>
+      <h1>Post List</h1>
+      <section className="post-list">
+        {posts.map((post) => (
+          <h3 key={post.id}>
+            <Link to={`/posts/${post.id}`}>{post.title}</Link>
+          </h3>
+        ))}
+      </section>
+    </div>
+  );
+};
+
+export default PostList;
