@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { MdStar, MdStarOutline } from "react-icons/md";
 
 const StarRating = ({ totalStars = 5 }) => {

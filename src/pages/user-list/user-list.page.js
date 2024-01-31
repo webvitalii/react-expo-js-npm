@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import UserList from "../../components/user-list/user-list.component";
 import SearchBox from "../../components/search-box/search-box.component";
 
