@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
-import StarRating from "../star-rating/star-rating.component";
+import StarRating from "../star-rating/StarRating";
 import "./post-detail.component.css";
 
 const PostDetail = () => {
@@ -19,7 +19,21 @@ const PostDetail = () => {
     <article>
       <h2>{post.title}</h2>
 
-      <StarRating />
+      <div>
+        <StarRating />
+      </div>
+
+      <div>
+        <StarRating totalStars={10} color="#0074cc" />
+      </div>
+
+      <div>
+        <StarRating
+          totalStars={5}
+          color="#008000"
+          ratingLabels={["Terrible", "Bad", "Okay", "Good", "Amazing"]}
+        />
+      </div>
 
       <div>{post.body}</div>
     </article>
