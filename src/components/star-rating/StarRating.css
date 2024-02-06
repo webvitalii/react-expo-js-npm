@@ -5,8 +5,9 @@
 .star-rating__star {
   cursor: pointer;
   display: inline-block;
+  line-height: 1;
   font-size: 24px;
-  margin-right: 4px;
+  margin-right: 0px;
 }
 
 .star-rating__star--selected {
@@ -18,5 +19,8 @@
 }
 
 .star-rating__selected-rating {
+  line-height: 1;
+  font-size: 16px;
+  margin-left: 4px;
   margin-top: 8px;
 }

@@ -2,12 +2,19 @@ import { useState } from "react";
 import { MdStar, MdStarOutline } from "react-icons/md";
 import "./StarRating.css";
 
-const StarRating = ({ totalStars = 5, color = "#ffd700", ratingLabels }) => {
-  const [rating, setRating] = useState(0);
+const StarRating = ({
+  totalStars = 5,
+  color = "#ffd700",
+  initialRating = 0,
+  ratingLabels,
+  onSetRating,
+}) => {
+  const [rating, setRating] = useState(initialRating);
   const [tempRating, setTempRating] = useState(0);
 
   const handleStarClick = (index) => {
     setRating(index + 1);
+    onSetRating(index + 1);
   };
 
   return (
@@ -30,11 +37,11 @@ const StarRating = ({ totalStars = 5, color = "#ffd700", ratingLabels }) => {
           )}
         </span>
       ))}
-      <span className="star-rating__selected-rating" style={{ color }}>
+      <strong className="star-rating__selected-rating" style={{ color }}>
         {ratingLabels
           ? ratingLabels[(tempRating || rating) - 1]
           : tempRating || rating}
-      </span>
+      </strong>
     </div>
   );
 };

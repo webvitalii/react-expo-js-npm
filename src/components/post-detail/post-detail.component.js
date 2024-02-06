@@ -7,6 +7,7 @@ import "./post-detail.component.css";
 const PostDetail = () => {
   const { postId } = useParams();
   const [post, setPost] = useState({});
+  const [postRating, setPostRating] = useState();
 
   useEffect(() => {
     axios
@@ -20,11 +21,11 @@ const PostDetail = () => {
       <h2>{post.title}</h2>
 
       <div>
-        <StarRating />
+        <StarRating totalStars={10} initialRating={7} color="#0074cc" />
       </div>
 
       <div>
-        <StarRating totalStars={10} color="#0074cc" />
+        <StarRating totalStars={10} />
       </div>
 
       <div>
@@ -33,6 +34,18 @@ const PostDetail = () => {
           color="#008000"
           ratingLabels={["Terrible", "Bad", "Okay", "Good", "Amazing"]}
         />
+      </div>
+
+      <div>
+        <StarRating
+          totalStars={10}
+          color="#8A2BE2"
+          onSetRating={setPostRating}
+        />
+
+        <p>
+          Post rating: <strong>{postRating}</strong>
+        </p>
       </div>
 
       <div>{post.body}</div>
