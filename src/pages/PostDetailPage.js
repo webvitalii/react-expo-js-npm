@@ -4,7 +4,7 @@ import PostDetail from "../components/post-detail/post-detail.component";
 const PostDetailPage = () => {
   return (
     <div>
-      <h1>PostDetail ==== </h1>
+      <h1>Post Details</h1>
       <PostDetail />
     </div>
   );
