@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { ChakraProvider } from "@chakra-ui/react";
 
 import LayoutPage from "./pages/layout/layout.page";
 import HomePage from "./pages/home/home.page";
@@ -13,6 +14,7 @@ import AjaxPage from "./pages/ajax/ajax.page";
 import YoutubePage from "./pages/youtube/youtube.page";
 import WikipediaPage from "./pages/wikipedia/wikipedia.page";
 import SuperheroesPage from "./pages/superheroes/superheroes.page";
+import DomainListPage from "./pages/DomainListPage";
 import NotFoundPage from "./pages/not-found/not-found.page";
 
 import "./App.css";
@@ -20,24 +22,27 @@ import "./App.css";
 class App extends React.Component {
   render() {
     return (
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<LayoutPage />}>
-            <Route index element={<HomePage />} />
-            <Route path="counter" element={<CounterPage />} />
-            <Route path="user-list" element={<UserListPage />} />
-            <Route path="posts" element={<PostListPage />} />
-            <Route path="posts/:postId" element={<PostDetailPage />} />
-            <Route path="geolocation" element={<GeolocationPage />} />
-            <Route path="form" element={<FormPage />} />
-            <Route path="ajax" element={<AjaxPage />} />
-            <Route path="youtube" element={<YoutubePage />} />
-            <Route path="wikipedia" element={<WikipediaPage />} />
-            <Route path="superheroes" element={<SuperheroesPage />} />
-            <Route path="*" element={<NotFoundPage />} />
-          </Route>
-        </Routes>
-      </BrowserRouter>
+      <ChakraProvider>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<LayoutPage />}>
+              <Route index element={<HomePage />} />
+              <Route path="counter" element={<CounterPage />} />
+              <Route path="user-list" element={<UserListPage />} />
+              <Route path="posts" element={<PostListPage />} />
+              <Route path="posts/:postId" element={<PostDetailPage />} />
+              <Route path="geolocation" element={<GeolocationPage />} />
+              <Route path="form" element={<FormPage />} />
+              <Route path="ajax" element={<AjaxPage />} />
+              <Route path="youtube" element={<YoutubePage />} />
+              <Route path="wikipedia" element={<WikipediaPage />} />
+              <Route path="superheroes" element={<SuperheroesPage />} />
+              <Route path="domains" element={<DomainListPage />} />
+              <Route path="*" element={<NotFoundPage />} />
+            </Route>
+          </Routes>
+        </BrowserRouter>
+      </ChakraProvider>
     );
   }
 }

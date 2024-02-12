@@ -1,0 +1,1535 @@
+[
+  {
+    "tld": "com",
+    "price": 19.99
+  },
+  {
+    "tld": "net",
+    "price": 17.99
+  },
+  {
+    "tld": "org",
+    "price": 17.99
+  },
+  {
+    "tld": "info",
+    "price": 17.99
+  },
+  {
+    "tld": "club",
+    "price": 12.95
+  },
+  {
+    "tld": "email",
+    "price": 19.95
+  },
+  {
+    "tld": "guru",
+    "price": 39.95
+  },
+  {
+    "tld": "link",
+    "price": 10.95
+  },
+  {
+    "tld": "photography",
+    "price": 19.95
+  },
+  {
+    "tld": "today",
+    "price": 19.95
+  },
+  {
+    "tld": "xyz",
+    "price": 12.99
+  },
+  {
+    "tld": "co",
+    "price": 26.95
+  },
+  {
+    "tld": "co.nz",
+    "price": 40.99
+  },
+  {
+    "tld": "net.nz",
+    "price": 40.99
+  },
+  {
+    "tld": "org.nz",
+    "price": 40.99
+  },
+  {
+    "tld": "asia",
+    "price": 14.95
+  },
+  {
+    "tld": "biz",
+    "price": 16.99
+  },
+  {
+    "tld": "mobi",
+    "price": 24.95
+  },
+  {
+    "tld": "name",
+    "price": 12.95
+  },
+  {
+    "transfer_price": null,
+    "tld": "bz",
+    "price": 24.95
+  },
+  {
+    "tld": "ca",
+    "price": 16.95
+  },
+  {
+    "tld": "cc",
+    "price": 24.95
+  },
+  {
+    "tld": "de",
+    "price": 9.95
+  },
+  {
+    "tld": "es",
+    "price": 12.95
+  },
+  {
+    "tld": "eu",
+    "price": 9.95
+  },
+  {
+    "tld": "in",
+    "price": 14.95
+  },
+  {
+    "tld": "me",
+    "price": 32.95
+  },
+  {
+    "tld": "tv",
+    "price": 34.95
+  },
+  {
+    "tld": "us",
+    "price": 11.95
+  },
+  {
+    "transfer_price": null,
+    "tld": "ws",
+    "price": 24.95
+  },
+  {
+    "tld": "academy",
+    "price": 29.95
+  },
+  {
+    "tld": "accountant",
+    "price": 29.95
+  },
+  {
+    "tld": "actor",
+    "price": 34.99
+  },
+  {
+    "tld": "agency",
+    "price": 19.95
+  },
+  {
+    "tld": "airforce",
+    "price": 29.99
+  },
+  {
+    "transfer_price": null,
+    "tld": "am",
+    "price": 74.95
+  },
+  {
+    "tld": "apartments",
+    "price": 39.95
+  },
+  {
+    "tld": "app",
+    "price": 15.99
+  },
+  {
+    "tld": "archi",
+    "price": 94.99
+  },
+  {
+    "tld": "army",
+    "price": 29.99
+  },
+  {
+    "tld": "art",
+    "price": 14.99
+  },
+  {
+    "tld": "associates",
+    "price": 34.99
+  },
+  {
+    "transfer_price": null,
+    "tld": "at",
+    "price": 19.95
+  },
+  {
+    "tld": "attorney",
+    "price": 44.99
+  },
+  {
+    "tld": "auction",
+    "price": 29.99
+  },
+  {
+    "tld": "audio",
+    "price": 129.95
+  },
+  {
+    "tld": "auto",
+    "price": 2500
+  },
+  {
+    "tld": "band",
+    "price": 24.99
+  },
+  {
+    "tld": "bar",
+    "price": 84.99
+  },
+  {
+    "tld": "barcelona",
+    "price": 59.95
+  },
+  {
+    "tld": "bargains",
+    "price": 31.99
+  },
+  {
+    "tld": "bayern",
+    "price": 44.99
+  },
+  {
+    "tld": "beer",
+    "price": 34.99
+  },
+  {
+    "tld": "berlin",
+    "price": 44.95
+  },
+  {
+    "tld": "best",
+    "price": 99.99
+  },
+  {
+    "tld": "bid",
+    "price": 34.99
+  },
+  {
+    "tld": "bike",
+    "price": 39.95
+  },
+  {
+    "tld": "bio",
+    "price": 59.99
+  },
+  {
+    "tld": "black",
+    "price": 44.95
+  },
+  {
+    "tld": "blackfriday",
+    "price": 129.95
+  },
+  {
+    "tld": "blog",
+    "price": 24.95
+  },
+  {
+    "tld": "blue",
+    "price": 18.99
+  },
+  {
+    "tld": "boutique",
+    "price": 29.95
+  },
+  {
+    "tld": "build",
+    "price": 63.99
+  },
+  {
+    "tld": "builders",
+    "price": 29.95
+  },
+  {
+    "tld": "business",
+    "price": 22.99
+  },
+  {
+    "tld": "buzz",
+    "price": 34.95
+  },
+  {
+    "tld": "cab",
+    "price": 29.95
+  },
+  {
+    "tld": "cafe",
+    "price": 29.95
+  },
+  {
+    "tld": "camera",
+    "price": 44.95
+  },
+  {
+    "tld": "camp",
+    "price": 44.95
+  },
+  {
+    "tld": "capital",
+    "price": 59.99
+  },
+  {
+    "tld": "car",
+    "price": 2500
+  },
+  {
+    "tld": "cards",
+    "price": 29.95
+  },
+  {
+    "tld": "care",
+    "price": 29.95
+  },
+  {
+    "tld": "careers",
+    "price": 49.95
+  },
+  {
+    "tld": "cars",
+    "price": 2500
+  },
+  {
+    "tld": "casa",
+    "price": 24.95
+  },
+  {
+    "tld": "cash",
+    "price": 29.95
+  },
+  {
+    "tld": "casino",
+    "price": 119.95
+  },
+  {
+    "tld": "catering",
+    "price": 29.95
+  },
+  {
+    "tld": "center",
+    "price": 19.95
+  },
+  {
+    "tld": "ceo",
+    "price": 94.99
+  },
+  {
+    "tld": "chat",
+    "price": 24.95
+  },
+  {
+    "tld": "cheap",
+    "price": 29.95
+  },
+  {
+    "tld": "christmas",
+    "price": 39.95
+  },
+  {
+    "tld": "church",
+    "price": 29.95
+  },
+  {
+    "tld": "city",
+    "price": 22.99
+  },
+  {
+    "tld": "claims",
+    "price": 59.99
+  },
+  {
+    "tld": "cleaning",
+    "price": 44.95
+  },
+  {
+    "tld": "click",
+    "price": 12.95
+  },
+  {
+    "tld": "clinic",
+    "price": 59.99
+  },
+  {
+    "tld": "clothing",
+    "price": 39.95
+  },
+  {
+    "tld": "cloud",
+    "price": 22.95
+  },
+  {
+    "tld": "coach",
+    "price": 39.95
+  },
+  {
+    "tld": "codes",
+    "price": 49.99
+  },
+  {
+    "tld": "coffee",
+    "price": 29.95
+  },
+  {
+    "tld": "college",
+    "price": 59.95
+  },
+  {
+    "tld": "community",
+    "price": 29.95
+  },
+  {
+    "tld": "company",
+    "price": 19.95
+  },
+  {
+    "tld": "computer",
+    "price": 29.95
+  },
+  {
+    "tld": "condos",
+    "price": 49.99
+  },
+  {
+    "tld": "construction",
+    "price": 29.95
+  },
+  {
+    "tld": "consulting",
+    "price": 29.99
+  },
+  {
+    "tld": "contractors",
+    "price": 29.95
+  },
+  {
+    "tld": "cooking",
+    "price": 29.95
+  },
+  {
+    "tld": "cool",
+    "price": 29.95
+  },
+  {
+    "tld": "coupons",
+    "price": 49.95
+  },
+  {
+    "tld": "courses",
+    "price": 34.95
+  },
+  {
+    "tld": "creditcard",
+    "price": 159.99
+  },
+  {
+    "tld": "cruises",
+    "price": 49.99
+  },
+  {
+    "tld": "dance",
+    "price": 22.99
+  },
+  {
+    "tld": "dating",
+    "price": 59.99
+  },
+  {
+    "tld": "deals",
+    "price": 34.99
+  },
+  {
+    "tld": "degree",
+    "price": 39.99
+  },
+  {
+    "tld": "democrat",
+    "price": 29.99
+  },
+  {
+    "tld": "dental",
+    "price": 59.99
+  },
+  {
+    "tld": "dentist",
+    "price": 44.99
+  },
+  {
+    "tld": "design",
+    "price": 49.95
+  },
+  {
+    "tld": "dev",
+    "price": 15.99
+  },
+  {
+    "tld": "diamonds",
+    "price": 49.95
+  },
+  {
+    "tld": "diet",
+    "price": 129.95
+  },
+  {
+    "tld": "digital",
+    "price": 29.95
+  },
+  {
+    "tld": "direct",
+    "price": 34.99
+  },
+  {
+    "tld": "directory",
+    "price": 19.95
+  },
+  {
+    "tld": "discount",
+    "price": 29.95
+  },
+  {
+    "tld": "doctor",
+    "price": 79.95
+  },
+  {
+    "tld": "dog",
+    "price": 44.95
+  },
+  {
+    "tld": "domains",
+    "price": 29.95
+  },
+  {
+    "tld": "download",
+    "price": 29.95
+  },
+  {
+    "tld": "earth",
+    "price": 19.95
+  },
+  {
+    "tld": "education",
+    "price": 19.95
+  },
+  {
+    "tld": "energy",
+    "price": 79.95
+  },
+  {
+    "tld": "engineer",
+    "price": 29.99
+  },
+  {
+    "tld": "engineering",
+    "price": 59.99
+  },
+  {
+    "tld": "enterprises",
+    "price": 29.95
+  },
+  {
+    "tld": "equipment",
+    "price": 19.95
+  },
+  {
+    "tld": "estate",
+    "price": 29.95
+  },
+  {
+    "tld": "events",
+    "price": 29.95
+  },
+  {
+    "tld": "exchange",
+    "price": 29.95
+  },
+  {
+    "tld": "expert",
+    "price": 49.95
+  },
+  {
+    "tld": "exposed",
+    "price": 20.99
+  },
+  {
+    "tld": "express",
+    "price": 29.95
+  },
+  {
+    "tld": "fail",
+    "price": 34.99
+  },
+  {
+    "tld": "faith",
+    "price": 29.95
+  },
+  {
+    "tld": "family",
+    "price": 24.99
+  },
+  {
+    "tld": "fans",
+    "price": 59.95
+  },
+  {
+    "tld": "farm",
+    "price": 31.99
+  },
+  {
+    "tld": "fashion",
+    "price": 29.95
+  },
+  {
+    "tld": "film",
+    "price": 79.95
+  },
+  {
+    "tld": "finance",
+    "price": 59.99
+  },
+  {
+    "tld": "financial",
+    "price": 59.99
+  },
+  {
+    "tld": "fish",
+    "price": 34.99
+  },
+  {
+    "tld": "fishing",
+    "price": 34.99
+  },
+  {
+    "tld": "fit",
+    "price": 24.95
+  },
+  {
+    "tld": "fitness",
+    "price": 34.99
+  },
+  {
+    "tld": "flights",
+    "price": 49.99
+  },
+  {
+    "tld": "florist",
+    "price": 29.95
+  },
+  {
+    "tld": "flowers",
+    "price": 129.95
+  },
+  {
+    "transfer_price": null,
+    "tld": "fm",
+    "price": 74.95
+  },
+  {
+    "tld": "football",
+    "price": 19.95
+  },
+  {
+    "tld": "forsale",
+    "price": 29.99
+  },
+  {
+    "tld": "foundation",
+    "price": 31.99
+  },
+  {
+    "tld": "fun",
+    "price": 19.95
+  },
+  {
+    "tld": "fund",
+    "price": 59.99
+  },
+  {
+    "tld": "furniture",
+    "price": 59.99
+  },
+  {
+    "tld": "futbol",
+    "price": 12.99
+  },
+  {
+    "tld": "fyi",
+    "price": 29.95
+  },
+  {
+    "tld": "gallery",
+    "price": 19.95
+  },
+  {
+    "tld": "game",
+    "price": 349.95
+  },
+  {
+    "tld": "games",
+    "price": 19.95
+  },
+  {
+    "tld": "garden",
+    "price": 24.95
+  },
+  {
+    "tld": "gay",
+    "price": 29.99
+  },
+  {
+    "tld": "gift",
+    "price": 31.99
+  },
+  {
+    "tld": "gifts",
+    "price": 34.99
+  },
+  {
+    "tld": "gives",
+    "price": 29.99
+  },
+  {
+    "tld": "glass",
+    "price": 44.95
+  },
+  {
+    "tld": "global",
+    "price": 59.95
+  },
+  {
+    "tld": "gmbh",
+    "price": 24.95
+  },
+  {
+    "tld": "gold",
+    "price": 79.95
+  },
+  {
+    "tld": "golf",
+    "price": 49.95
+  },
+  {
+    "tld": "graphics",
+    "price": 19.95
+  },
+  {
+    "tld": "gratis",
+    "price": 22.99
+  },
+  {
+    "tld": "green",
+    "price": 65.95
+  },
+  {
+    "tld": "gripe",
+    "price": 34.99
+  },
+  {
+    "tld": "group",
+    "price": 19.95
+  },
+  {
+    "tld": "guide",
+    "price": 34.99
+  },
+  {
+    "tld": "guitars",
+    "price": 129.95
+  },
+  {
+    "tld": "haus",
+    "price": 29.99
+  },
+  {
+    "tld": "healthcare",
+    "price": 59.99
+  },
+  {
+    "tld": "help",
+    "price": 29.95
+  },
+  {
+    "tld": "hiphop",
+    "price": 129.95
+  },
+  {
+    "tld": "hockey",
+    "price": 49.95
+  },
+  {
+    "tld": "holdings",
+    "price": 59.95
+  },
+  {
+    "tld": "holiday",
+    "price": 49.99
+  },
+  {
+    "tld": "horse",
+    "price": 34.99
+  },
+  {
+    "tld": "hospital",
+    "price": 44.95
+  },
+  {
+    "tld": "host",
+    "price": 109.99
+  },
+  {
+    "tld": "hosting",
+    "price": 499.95
+  },
+  {
+    "tld": "house",
+    "price": 29.95
+  },
+  {
+    "tld": "how",
+    "price": 29.99
+  },
+  {
+    "tld": "immo",
+    "price": 34.99
+  },
+  {
+    "tld": "immobilien",
+    "price": 29.99
+  },
+  {
+    "tld": "inc",
+    "price": 2299.99
+  },
+  {
+    "tld": "industries",
+    "price": 34.99
+  },
+  {
+    "tld": "ink",
+    "price": 36.99
+  },
+  {
+    "tld": "institute",
+    "price": 19.95
+  },
+  {
+    "tld": "insure",
+    "price": 59.99
+  },
+  {
+    "tld": "international",
+    "price": 19.95
+  },
+  {
+    "tld": "investments",
+    "price": 109.99
+  },
+  {
+    "tld": "io",
+    "price": 44.99
+  },
+  {
+    "tld": "irish",
+    "price": 34.95
+  },
+  {
+    "tld": "jewelry",
+    "price": 49.95
+  },
+  {
+    "tld": "kim",
+    "price": 18.99
+  },
+  {
+    "tld": "kitchen",
+    "price": 44.95
+  },
+  {
+    "tld": "kiwi",
+    "price": 42.99
+  },
+  {
+    "tld": "la",
+    "price": 39.95
+  },
+  {
+    "tld": "land",
+    "price": 29.95
+  },
+  {
+    "tld": "law",
+    "price": 210
+  },
+  {
+    "tld": "lawyer",
+    "price": 44.99
+  },
+  {
+    "tld": "lease",
+    "price": 59.99
+  },
+  {
+    "tld": "legal",
+    "price": 49.95
+  },
+  {
+    "tld": "lgbt",
+    "price": 45.95
+  },
+  {
+    "tld": "life",
+    "price": 34.99
+  },
+  {
+    "tld": "lighting",
+    "price": 19.95
+  },
+  {
+    "tld": "limited",
+    "price": 34.99
+  },
+  {
+    "tld": "limo",
+    "price": 49.95
+  },
+  {
+    "tld": "live",
+    "price": 24.99
+  },
+  {
+    "tld": "loan",
+    "price": 29.95
+  },
+  {
+    "tld": "loans",
+    "price": 109.99
+  },
+  {
+    "tld": "lol",
+    "price": 29.95
+  },
+  {
+    "tld": "london",
+    "price": 61.99
+  },
+  {
+    "tld": "love",
+    "price": 29.95
+  },
+  {
+    "tld": "ltd",
+    "price": 19.95
+  },
+  {
+    "tld": "management",
+    "price": 19.95
+  },
+  {
+    "tld": "market",
+    "price": 29.99
+  },
+  {
+    "tld": "marketing",
+    "price": 29.95
+  },
+  {
+    "tld": "mba",
+    "price": 29.95
+  },
+  {
+    "tld": "media",
+    "price": 34.99
+  },
+  {
+    "tld": "melbourne",
+    "price": 49.95
+  },
+  {
+    "tld": "men",
+    "price": 29.95
+  },
+  {
+    "tld": "menu",
+    "price": 199.95
+  },
+  {
+    "tld": "miami",
+    "price": 17.95
+  },
+  {
+    "tld": "moda",
+    "price": 29.99
+  },
+  {
+    "tld": "mom",
+    "price": 29.95
+  },
+  {
+    "tld": "money",
+    "price": 24.95
+  },
+  {
+    "tld": "mortgage",
+    "price": 39.99
+  },
+  {
+    "tld": "movie",
+    "price": 299.95
+  },
+  {
+    "tld": "navy",
+    "price": 29.99
+  },
+  {
+    "tld": "network",
+    "price": 22.99
+  },
+  {
+    "tld": "news",
+    "price": 24.99
+  },
+  {
+    "tld": "ninja",
+    "price": 18.95
+  },
+  {
+    "tld": "nyc",
+    "price": 29.99
+  },
+  {
+    "tld": "okinawa",
+    "price": 17.99
+  },
+  {
+    "tld": "one",
+    "price": 19.99
+  },
+  {
+    "tld": "onl",
+    "price": 17.99
+  },
+  {
+    "tld": "online",
+    "price": 29.95
+  },
+  {
+    "tld": "paris",
+    "price": 65.99
+  },
+  {
+    "tld": "partners",
+    "price": 59.99
+  },
+  {
+    "tld": "parts",
+    "price": 34.99
+  },
+  {
+    "tld": "party",
+    "price": 29.95
+  },
+  {
+    "tld": "pet",
+    "price": 19.95
+  },
+  {
+    "tld": "photo",
+    "price": 23.95
+  },
+  {
+    "tld": "photos",
+    "price": 19.95
+  },
+  {
+    "tld": "physio",
+    "price": 99.99
+  },
+  {
+    "tld": "pics",
+    "price": 29.95
+  },
+  {
+    "tld": "pictures",
+    "price": 11.99
+  },
+  {
+    "tld": "pink",
+    "price": 18.99
+  },
+  {
+    "tld": "pizza",
+    "price": 59.99
+  },
+  {
+    "tld": "plumbing",
+    "price": 44.95
+  },
+  {
+    "tld": "plus",
+    "price": 29.95
+  },
+  {
+    "tld": "poker",
+    "price": 49.99
+  },
+  {
+    "tld": "porn",
+    "price": 89.95
+  },
+  {
+    "tld": "press",
+    "price": 84.99
+  },
+  {
+    "tld": "pro",
+    "price": 19.99
+  },
+  {
+    "tld": "productions",
+    "price": 34.99
+  },
+  {
+    "tld": "promo",
+    "price": 14.95
+  },
+  {
+    "tld": "properties",
+    "price": 31.99
+  },
+  {
+    "tld": "property",
+    "price": 129.95
+  },
+  {
+    "tld": "pub",
+    "price": 29.99
+  },
+  {
+    "tld": "quebec",
+    "price": 35.99
+  },
+  {
+    "tld": "racing",
+    "price": 29.95
+  },
+  {
+    "tld": "recipes",
+    "price": 49.95
+  },
+  {
+    "tld": "red",
+    "price": 18.99
+  },
+  {
+    "tld": "rehab",
+    "price": 29.99
+  },
+  {
+    "tld": "reisen",
+    "price": 22.99
+  },
+  {
+    "tld": "rent",
+    "price": 59.95
+  },
+  {
+    "tld": "rentals",
+    "price": 29.95
+  },
+  {
+    "tld": "repair",
+    "price": 29.95
+  },
+  {
+    "tld": "report",
+    "price": 22.99
+  },
+  {
+    "tld": "republican",
+    "price": 34.99
+  },
+  {
+    "tld": "rest",
+    "price": 42.99
+  },
+  {
+    "tld": "restaurant",
+    "price": 59.99
+  },
+  {
+    "tld": "review",
+    "price": 29.95
+  },
+  {
+    "tld": "reviews",
+    "price": 22.99
+  },
+  {
+    "tld": "rip",
+    "price": 19.99
+  },
+  {
+    "tld": "rocks",
+    "price": 12.99
+  },
+  {
+    "tld": "rodeo",
+    "price": 34.99
+  },
+  {
+    "tld": "run",
+    "price": 19.95
+  },
+  {
+    "tld": "sale",
+    "price": 24.95
+  },
+  {
+    "tld": "salon",
+    "price": 39.95
+  },
+  {
+    "tld": "school",
+    "price": 24.95
+  },
+  {
+    "tld": "schule",
+    "price": 22.99
+  },
+  {
+    "tld": "science",
+    "price": 29.95
+  },
+  {
+    "tld": "services",
+    "price": 34.99
+  },
+  {
+    "tld": "sex",
+    "price": 89.95
+  },
+  {
+    "tld": "shoes",
+    "price": 44.95
+  },
+  {
+    "tld": "shop",
+    "price": 29.95
+  },
+  {
+    "tld": "shopping",
+    "price": 24.95
+  },
+  {
+    "tld": "show",
+    "price": 29.95
+  },
+  {
+    "tld": "singles",
+    "price": 39.95
+  },
+  {
+    "tld": "site",
+    "price": 29.95
+  },
+  {
+    "tld": "ski",
+    "price": 44.99
+  },
+  {
+    "tld": "soccer",
+    "price": 19.95
+  },
+  {
+    "tld": "social",
+    "price": 29.99
+  },
+  {
+    "tld": "software",
+    "price": 29.99
+  },
+  {
+    "tld": "solar",
+    "price": 44.95
+  },
+  {
+    "tld": "solutions",
+    "price": 19.95
+  },
+  {
+    "tld": "soy",
+    "price": 31.99
+  },
+  {
+    "tld": "space",
+    "price": 19.99
+  },
+  {
+    "tld": "store",
+    "price": 49.95
+  },
+  {
+    "tld": "stream",
+    "price": 24.95
+  },
+  {
+    "tld": "studio",
+    "price": 24.99
+  },
+  {
+    "tld": "study",
+    "price": 24.95
+  },
+  {
+    "tld": "style",
+    "price": 24.95
+  },
+  {
+    "tld": "supplies",
+    "price": 22.99
+  },
+  {
+    "tld": "supply",
+    "price": 22.99
+  },
+  {
+    "tld": "support",
+    "price": 19.95
+  },
+  {
+    "tld": "surf",
+    "price": 34.99
+  },
+  {
+    "tld": "surgery",
+    "price": 59.99
+  },
+  {
+    "tld": "sydney",
+    "price": 44.95
+  },
+  {
+    "tld": "systems",
+    "price": 19.95
+  },
+  {
+    "tld": "tattoo",
+    "price": 39.95
+  },
+  {
+    "tld": "tax",
+    "price": 59.99
+  },
+  {
+    "tld": "taxi",
+    "price": 49.95
+  },
+  {
+    "tld": "team",
+    "price": 29.95
+  },
+  {
+    "tld": "tech",
+    "price": 49.95
+  },
+  {
+    "tld": "technology",
+    "price": 19.95
+  },
+  {
+    "tld": "tel",
+    "price": 11.95
+  },
+  {
+    "tld": "tennis",
+    "price": 44.95
+  },
+  {
+    "tld": "theater",
+    "price": 49.95
+  },
+  {
+    "tld": "tienda",
+    "price": 49.99
+  },
+  {
+    "tld": "tips",
+    "price": 19.95
+  },
+  {
+    "tld": "tokyo",
+    "price": 17.99
+  },
+  {
+    "tld": "tools",
+    "price": 34.99
+  },
+  {
+    "tld": "top",
+    "price": 16.95
+  },
+  {
+    "tld": "tours",
+    "price": 49.95
+  },
+  {
+    "tld": "town",
+    "price": 34.99
+  },
+  {
+    "tld": "toys",
+    "price": 44.95
+  },
+  {
+    "tld": "trade",
+    "price": 34.99
+  },
+  {
+    "tld": "training",
+    "price": 29.95
+  },
+  {
+    "tld": "tube",
+    "price": 24.95
+  },
+  {
+    "tld": "uk",
+    "price": 11.95
+  },
+  {
+    "tld": "university",
+    "price": 59.99
+  },
+  {
+    "tld": "uno",
+    "price": 29.95
+  },
+  {
+    "tld": "vacations",
+    "price": 31.99
+  },
+  {
+    "tld": "vegas",
+    "price": 68.99
+  },
+  {
+    "tld": "ventures",
+    "price": 59.95
+  },
+  {
+    "tld": "vet",
+    "price": 29.99
+  },
+  {
+    "tld": "viajes",
+    "price": 49.99
+  },
+  {
+    "tld": "video",
+    "price": 24.99
+  },
+  {
+    "tld": "villas",
+    "price": 49.99
+  },
+  {
+    "tld": "vip",
+    "price": 24.95
+  },
+  {
+    "tld": "vision",
+    "price": 34.99
+  },
+  {
+    "tld": "vodka",
+    "price": 34.99
+  },
+  {
+    "tld": "vote",
+    "price": 64.95
+  },
+  {
+    "tld": "voyage",
+    "price": 49.95
+  },
+  {
+    "tld": "watch",
+    "price": 31.99
+  },
+  {
+    "tld": "webcam",
+    "price": 29.95
+  },
+  {
+    "tld": "website",
+    "price": 24.95
+  },
+  {
+    "tld": "wedding",
+    "price": 29.95
+  },
+  {
+    "tld": "wiki",
+    "price": 29.95
+  },
+  {
+    "tld": "win",
+    "price": 29.95
+  },
+  {
+    "tld": "wine",
+    "price": 39.95
+  },
+  {
+    "tld": "work",
+    "price": 9.99
+  },
+  {
+    "tld": "works",
+    "price": 31.99
+  },
+  {
+    "tld": "world",
+    "price": 29.95
+  },
+  {
+    "tld": "wtf",
+    "price": 34.99
+  },
+  {
+    "tld": "xxx",
+    "price": 119.95
+  },
+  {
+    "tld": "yoga",
+    "price": 24.95
+  },
+  {
+    "tld": "yokohama",
+    "price": 13.95
+  },
+  {
+    "tld": "zone",
+    "price": 29.95
+  }
+]
