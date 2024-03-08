@@ -1,7 +1,7 @@
 import React from "react";
 import { Flex, Box } from "@chakra-ui/react";
 import { Outlet, Link } from "react-router-dom";
-import "./layout.page.css";
+import "./LayoutPage.css";
 
 export default class LayoutPage extends React.Component {
   render() {
@@ -40,6 +40,9 @@ export default class LayoutPage extends React.Component {
           </Box>
           <Box mr={4}>
             <Link to="/domains">Domains</Link>
+          </Box>
+          <Box mr={4}>
+            <Link to="/test">Test</Link>
           </Box>
         </Flex>
 

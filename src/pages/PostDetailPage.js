@@ -1,4 +1,3 @@
-import React from "react";
 import PostDetail from "../components/post-detail/post-detail.component";
 
 const PostDetailPage = () => {
