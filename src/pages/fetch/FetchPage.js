@@ -15,7 +15,7 @@ function FetchPage() {
 
   const {
     data: customData,
-    loading: customIsLoading,
+    isLoading: customIsLoading,
     error: customError,
   } = useFetch(apiUrl);
 
