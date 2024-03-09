@@ -27,7 +27,7 @@ export default class LayoutPage extends React.Component {
             <Link to="/form">Form</Link>
           </Box>
           <Box mr={4}>
-            <Link to="/ajax">Ajax</Link>
+            <Link to="/fetch">Fetch</Link>
           </Box>
           <Box mr={4}>
             <Link to="/youtube">Youtube</Link>

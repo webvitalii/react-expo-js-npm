@@ -10,8 +10,8 @@ import PostListPage from "./pages/PostListPage";
 import PostDetailPage from "./pages/PostDetailPage";
 import GeolocationPage from "./pages/geolocation/geolocation.page";
 import FormPage from "./pages/form/form.page";
-import AjaxPage from "./pages/fetch/FetchPage";
-import YoutubePage from "./pages/youtube/youtube.page";
+import FetchPage from "./pages/fetch/FetchPage";
+import YoutubePage from "./pages/youtube/YoutubePage";
 import WikipediaPage from "./pages/wikipedia/wikipedia.page";
 import SuperheroesPage from "./pages/superheroes/superheroes.page";
 import DomainListPage from "./pages/DomainListPage";
@@ -34,7 +34,7 @@ class App extends React.Component {
               <Route path="posts/:postId" element={<PostDetailPage />} />
               <Route path="geolocation" element={<GeolocationPage />} />
               <Route path="form" element={<FormPage />} />
-              <Route path="ajax" element={<AjaxPage />} />
+              <Route path="fetch" element={<FetchPage />} />
               <Route path="youtube" element={<YoutubePage />} />
               <Route path="wikipedia" element={<WikipediaPage />} />
               <Route path="superheroes" element={<SuperheroesPage />} />
