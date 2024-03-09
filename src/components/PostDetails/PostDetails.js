@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
-import StarRating from "../star-rating/StarRating";
-import "./post-detail.component.css";
+import StarRating from "../StarRating/StarRating";
+import "./PostDetails.css";
 
-const PostDetail = () => {
+const PostDetails = () => {
   const { postId } = useParams();
   const [post, setPost] = useState({});
   const [postRating, setPostRating] = useState();
@@ -53,4 +53,4 @@ const PostDetail = () => {
   );
 };
 
-export default PostDetail;
+export default PostDetails;
