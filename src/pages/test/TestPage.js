@@ -1,29 +1,58 @@
-import { useState } from "react";
+import { useEffect, useState, useMemo } from "react";
 
-function CounterPage() {
-  const [count, setCount] = useState(0);
+function TestPage() {
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
+  const [isActive, setIsActive] = useState(false);
 
-  const decrementCount = () => {
-    setCount((prevCount) => prevCount - 1);
+  const person = useMemo(() => {
+    return { firstName, lastName };
+  }, [firstName, lastName]);
+
+  useEffect(() => {
+    console.log("person:", person);
+  }, [person]);
+
+  const handleFirstNameChange = (e) => {
+    setFirstName(e.target.value);
   };
 
-  const incrementCount = () => {
-    setCount((prevCount) => prevCount + 1);
+  const handleLastNameChange = (e) => {
+    setLastName(e.target.value);
+  };
+
+  const handleActiveChange = (e) => {
+    setIsActive(e.target.checked);
   };
 
   return (
-    <section className="counter-page">
-      <h3>Test Page</h3>
-      <p>Count: {count}</p>
+    <form>
+      <input
+        type="text"
+        placeholder="First Name"
+        className="fx-input"
+        value={firstName}
+        onChange={handleFirstNameChange}
+      />
+      <input
+        type="text"
+        placeholder="Last Name"
+        className="fx-input"
+        value={lastName}
+        onChange={handleLastNameChange}
+      />
+      <label>
+        <input
+          type="checkbox"
+          checked={isActive}
+          onChange={handleActiveChange}
+        />
+        Active
+      </label>
 
-      <button onClick={decrementCount} className="fx-btn">
-        Decrement
-      </button>
-      <button onClick={incrementCount} className="fx-btn">
-        Increment
-      </button>
-    </section>
+      <p>Person: {JSON.stringify(person)}</p>
+    </form>
   );
 }
 
-export default CounterPage;
+export default TestPage;

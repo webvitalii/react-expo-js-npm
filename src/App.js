@@ -10,7 +10,7 @@ import PostListPage from "./pages/PostListPage";
 import PostDetailPage from "./pages/PostDetailPage";
 import GeolocationPage from "./pages/geolocation/geolocation.page";
 import FormPage from "./pages/form/form.page";
-import AjaxPage from "./pages/ajax/ajax.page";
+import AjaxPage from "./pages/fetch/FetchPage";
 import YoutubePage from "./pages/youtube/youtube.page";
 import WikipediaPage from "./pages/wikipedia/wikipedia.page";
 import SuperheroesPage from "./pages/superheroes/superheroes.page";
