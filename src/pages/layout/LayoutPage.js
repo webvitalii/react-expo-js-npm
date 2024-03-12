@@ -15,6 +15,9 @@ export default class LayoutPage extends React.Component {
             <Link to="/counter">Counter</Link>
           </Box>
           <Box mr={4}>
+            <Link to="/counter-reducer">Counter reducer</Link>
+          </Box>
+          <Box mr={4}>
             <Link to="/posts">Post list</Link>
           </Box>
           <Box mr={4}>

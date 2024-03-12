@@ -5,6 +5,8 @@ import { ChakraProvider } from "@chakra-ui/react";
 import LayoutPage from "./pages/layout/LayoutPage";
 import HomePage from "./pages/home/HomePage";
 import CounterPage from "./pages/counter/CounterPage";
+import CounterReducerPage from "./pages/counterReducer/CounterReducerPage";
+
 import UserListPage from "./pages/user-list/user-list.page";
 import PostListPage from "./pages/PostListPage";
 import PostDetailPage from "./pages/PostDetailPage";
@@ -29,6 +31,7 @@ class App extends React.Component {
             <Route path="/" element={<LayoutPage />}>
               <Route index element={<HomePage />} />
               <Route path="counter" element={<CounterPage />} />
+              <Route path="counter-reducer" element={<CounterReducerPage />} />
               <Route path="user-list" element={<UserListPage />} />
               <Route path="posts" element={<PostListPage />} />
               <Route path="posts/:postId" element={<PostDetailPage />} />
