@@ -33,7 +33,8 @@ const useFetch = (url) => {
 
     // Cleanup function
     return () => {
-      abortController.abort(); // Abort the ongoing request if the component unmounts or if a new request is made
+      // Abort the ongoing request if the component unmounts or if a new request is made
+      abortController.abort();
     };
   }, [url]);
 

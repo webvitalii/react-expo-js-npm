@@ -11,7 +11,7 @@ const counterReducer = (state, action) => {
     case "setStep":
       return { ...state, step: action.payload };
     default:
-      throw new Error();
+      throw new Error("Unknown action type!");
   }
 };
 
@@ -33,7 +33,7 @@ function CounterReducerPage() {
   return (
     <section className="counter-reducer-page">
       <h3>Count: {state.count}</h3>
-      Step:{" "}
+      Step:
       <select onChange={handleStepChange} className="fx-input fx-input--inline">
         <option value="1">1</option>
         <option value="2">2</option>
