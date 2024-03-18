@@ -18,14 +18,14 @@ const useFetch = (url) => {
         }
         const jsonData = await response.json();
         setData(jsonData);
+        setIsLoading(false);
       } catch (error) {
         if (error.name === "AbortError") {
           console.log("Request aborted");
         } else {
           setError(error.message);
+          setIsLoading(false);
         }
-      } finally {
-        setIsLoading(false);
       }
     };
 

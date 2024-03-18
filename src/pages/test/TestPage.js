@@ -1,57 +1,29 @@
 import { useEffect, useState, useMemo } from "react";
+import useFetchRT from "reactive-toolkit";
 
 function TestPage() {
-  const [firstName, setFirstName] = useState("");
-  const [lastName, setLastName] = useState("");
-  const [isActive, setIsActive] = useState(false);
+  const { data, isLoading, error } = useFetchRT(
+    "https://jsonplaceholder.typicode.com/posts/?_delay=4000&cache=543345434"
+  );
 
-  const person = useMemo(() => {
-    return { firstName, lastName };
-  }, [firstName, lastName]);
+  if (isLoading) {
+    return <div>Loading...</div>;
+  }
 
-  useEffect(() => {
-    console.log("person:", person);
-  }, [person]);
-
-  const handleFirstNameChange = (e) => {
-    setFirstName(e.target.value);
-  };
-
-  const handleLastNameChange = (e) => {
-    setLastName(e.target.value);
-  };
-
-  const handleActiveChange = (e) => {
-    setIsActive(e.target.checked);
-  };
+  if (error) {
+    return <div>Error: {error}</div>;
+  }
 
   return (
-    <form>
-      <input
-        type="text"
-        placeholder="First Name"
-        className="fx-input"
-        value={firstName}
-        onChange={handleFirstNameChange}
-      />
-      <input
-        type="text"
-        placeholder="Last Name"
-        className="fx-input"
-        value={lastName}
-        onChange={handleLastNameChange}
-      />
-      <label>
-        <input
-          type="checkbox"
-          checked={isActive}
-          onChange={handleActiveChange}
-        />
-        Active
-      </label>
-
-      <p>Person: {JSON.stringify(person)}</p>
-    </form>
+    <div>
+      {data &&
+        data.map((post) => (
+          <div key={post.id}>
+            <h2>{post.title}</h2>
+            <p>{post.body}</p>
+          </div>
+        ))}
+    </div>
   );
 }
 
